@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Condições</title>
+  </head>
+  <body>
+    <section id="multas">
+      <h2>Sistema de multas</h2>
+      <input type="number" placeholder="Insira a velocidade" id="velocidade" />
+      <input
+        type="button"
+        id="verificador"
+        onclick="verificaVelocidade()"
+        value="Verificar"
+      />
+      <div id="result" class="resultados">""</div>
+    </section>
+    <section id="nacionalidade">
+      <h2>Sistema de nacionalidade</h2>
+      <input type="text" placeholder="Informe sua nacionalidade" id="nacio" />
+      <input
+        type="button"
+        value="Verificar"
+        onclick="verificaNacionalidade()"
+        id="verificador"
+      />
+      <div id="result2" class="resultados">""</div>
+    </section>
+  </body>
+</html>
