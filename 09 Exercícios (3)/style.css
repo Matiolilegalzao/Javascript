@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px #4d4d4d
+}
+#contador {
+    border: 2px solid black;
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+    padding-left: 3vh;
+    padding-top: 3vh;
+    padding-right: 3vh;
+    background-color: aliceblue;
+    border-radius: 8px;
+
+}
+
+body  {
+    background-color: rgb(123, 196, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+label {
+    display: block;
+    padding-bottom: 1.5vh;
+}
