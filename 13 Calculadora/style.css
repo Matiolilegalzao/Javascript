@@ -1,0 +1,74 @@
+#calculadora {
+  width: fit-content;
+  padding: 1em;
+  border: 1px solid rgb(197, 197, 197);
+  margin: auto;
+  text-align: center;
+}
+input[type="number"]::placeholder {
+  margin-left: 10px; /* Defina a margem desejada, por exemplo, 10px */
+}
+#resultado {
+  text-align: end;
+  height: 4rem;
+  width: 26.1rem;
+  margin-bottom: 10px;
+  font-size: 3.9rem;
+  border: 1px solid rgb(197, 197, 197);
+}
+#operacoes > input {
+  height: 3.5rem;
+  width: 6rem;
+  margin: 0.3rem;
+  background-color: rgb(219, 219, 219);
+  border-radius: 2px;
+  border: 1px solid rgb(197, 197, 197);
+  font-size: 18pt;
+}
+#operacoes > input:hover {
+  background-color: rgb(210, 210, 210);
+}
+
+#valores > input {
+  height: 3.5rem;
+  width: 6rem;
+  font-size: 17pt;
+  margin: 0.3rem;
+  background-color: aliceblue;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 2px;
+}
+#valores > input:hover {
+  background-color: rgb(233, 233, 233);
+}
+#valores {
+  max-width: 21rem;
+  display: inline-block;
+  text-align: left;
+}
+#btnresultado {
+  display: inline-block;
+  width: 6rem;
+  position: relative;
+}
+#btnresultado > input {
+  display: inline-block;
+  height: 15.9rem;
+  background-color: rgb(42, 152, 255);
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 2px;
+  width: 6rem;
+  position: absolute;
+  margin-left: -3.4rem;
+  margin-top: -14.6rem;
+  font-size: 18px;
+  color: aliceblue;
+}
+#btnresultado > input:hover {
+  background-color: rgb(29, 137, 231);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+}
