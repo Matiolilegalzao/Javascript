@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Cronômetro</title>
+  </head>
+  <body>
+    <h1>Cronômetro</h1>
+    <section id="cronometro">
+      <div id="visor">
+        <input type="number" id="horas" placeholder="00" />
+        <input type="number" id="minutos" placeholder="00" />
+        <input type="number" id="segundos" placeholder="00" />
+      </div>
+      <input
+        type="button"
+        value="Iniciar"
+        id="btniniciar"
+        onclick="iniciar()"
+      />
+      <input type="button" value="Parar" id="btnparar" onclick="parar()" />
+      <input type="button" value="Reset" id="btnreset" onclick="reset()" />
+    </section>
+  </body>
+</html>
