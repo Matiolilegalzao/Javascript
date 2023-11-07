@@ -40,6 +40,10 @@ function divisao() {
   inputResultado.value = 0;
   ultimaOperacao = "divisao";
 }
+function limpar() {
+  let inputResultado = document.getElementById("resultado");
+  inputResultado.value = "";
+}
 
 function addnumber(index) {
   let txtnum = document.getElementsByClassName("number")[index];
