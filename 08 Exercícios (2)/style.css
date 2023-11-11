@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+#container {
+  border: 3px solid black;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  width: 30%;
+  height: 50vh;
+  margin: auto;
+}
+form > p {
+  margin: auto;
+  display: inline;
+}
+
+#sexo {
+  padding-top: 1vh;
+  display: block;
+}
+input[type="radio"] {
+  vertical-align: middle;
+  margin-right: 1vh;
+}
+input[type="button"] {
+  margin-top: 1.5vh;
+}
+#msg {
+  text-align: center;
+  display: block;
+  margin-top: 3vh;
+}
+section {
+  margin: 0, auto;
+}
+
+#mainimg {
+  padding-top: 4vh;
+  margin: auto;
+  display: block;
+  width: 310px;
+  height: 300px;
+  border-radius: 50%;
+}

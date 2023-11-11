@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <section id="calculadora">
+      <input type="number" id="resultado" placeholder="0" />
+      <div id="operacoes">
+        <input type="button" value="+" onclick="adicao()" />
+        <input type="button" value="-" onclick="subtracao()" />
+        <input type="button" value="x" onclick="multiplicacao()" />
+        <input type="button" value="÷" onclick="divisao()" />
+      </div>
+      <div id="valores">
+        <input type="button" value="7" onclick="addnumber(0)" class="number" />
+        <input type="button" value="8" onclick="addnumber(1)" class="number" />
+        <input type="button" value="9" onclick="addnumber(2)" class="number" />
+        <input type="button" value="4" onclick="addnumber(3)" class="number" />
+        <input type="button" value="5" onclick="addnumber(4)" class="number" />
+        <input type="button" value="6" onclick="addnumber(5)" class="number" />
+        <input type="button" value="1" onclick="addnumber(6)" class="number" />
+        <input type="button" value="2" onclick="addnumber(7)" class="number" />
+        <input type="button" value="3" onclick="addnumber(8)" class="number" />
+        <input type="button" value="0" onclick="addnumber(9)" class="number" />
+        <input type="button" value="." onclick="dot()" />
+        <input type="button" value="C" onclick="limpar()" />
+      </div>
+      <div id="btnresultado">
+        <input type="button" value="=" onclick="calcular()" />
+      </div>
+    </section>
+  </body>
+</html>
