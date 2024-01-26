@@ -9,13 +9,13 @@
   </head>
   <body>
     <div id="header">
-      <p id="rgbcode">RGB Game</p>
+      <h1 id="rgbcode">RGB Guessing Game<span id="color-display">Click on "New Colors"</span></h1>
     </div>
     <div id="bar">
       <ul id="options">
         <li id="newColor" onclick="newColor()">New Colors</li>
-        <li>Correct</li>
-        <li>Easy</li>
+        <li id="correct"></li>
+        <li id="easyMode" onclick="easy()">Easy</li>
         <li>Hard</li>
       </ul>
     </div>
