@@ -1,7 +1,14 @@
-function easy(){
-  //document.body.style.backgroundColor = "red";
-  return 1;
+window.onload = function() {
+  newColor();
 }
+
+function settings(){
+  
+}
+  let score = 0;
+  
+
+
 
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -12,10 +19,13 @@ function clickButton(buttonNumber){ //função que retorna qual o botão que ape
   let botões = document.querySelectorAll(".btn"); //cria um vetor com todos os .btn
 
   if(buttonNumber == correctButton){
-    alert("Acertou!")
-    txtcorrect.innerHTML = `Correto`
+    newColor()
+    score++
+    let txtscore = document.getElementById("score");
+    txtscore.innerHTML = score;
   }else {
     botões[buttonNumber].style.opacity = "0"; //Apaga o botão errado
+    
   }
 }
 

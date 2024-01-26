@@ -9,14 +9,13 @@
   </head>
   <body>
     <div id="header">
-      <h1 id="rgbcode">RGB Guessing Game<span id="color-display">Click on "New Colors"</span></h1>
+      <h1 id="rgbcode">RGB Guessing Game<span id="color-display">Clique em "New Colors"</span></h1>
     </div>
     <div id="bar">
       <ul id="options">
         <li id="newColor" onclick="newColor()">New Colors</li>
-        <li id="correct"></li>
-        <li id="easyMode" onclick="easy()">Easy</li>
-        <li>Hard</li>
+        <li id="scoreLabel">Pontuação: <span id="score">0</span></li>
+        <li id="settings" onclick="settings()">Configurações</li>
       </ul>
     </div>
     <div id="main">
